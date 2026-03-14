@@ -62,17 +62,17 @@ import numpy as np
 
 | Topic | Description |
 |------|-------------|
-| NumPy Introduction | Overview of NumPy and its purpose |
-| NumPy Arrays | Creating and understanding arrays |
-| Indexing & Slicing | Accessing elements in arrays |
-| Broadcasting | Operations on arrays of different shapes |
-| Vectorization | Performing operations without loops |
-| Math & Statistics | Mathematical and statistical functions |
-| Linear Algebra | Matrix operations and calculations |
-| Random Module | Generating random numbers |
-| Memory Optimization | Efficient memory usage |
-| Performance Tips | Improving NumPy performance |
-| Interview Cheatsheet | Quick reference for interviews |
+| [NumPy Introduction](01_numpy_introduction.md) | Overview of NumPy and its purpose |
+| [NumPy Arrays](02_numpy_arrays.md) | Creating and understanding arrays |
+| [Indexing & Slicing](03_numpy_indexing_slicing.md) | Accessing elements in arrays |
+| [Broadcasting](04_numpy_broadcasting.md) | Operations on arrays of different shapes |
+| [Vectorization](05_numpy_vectorization.md) | Performing operations without loops |
+| [Math & Statistics](06_numpy_math_statistics.md) | Mathematical and statistical functions |
+| [Linear Algebra](07_numpy_linear_algebra.md) | Matrix operations and calculations |
+| [Random Module](08_numpy_random_module.md) | Generating random numbers |
+| [Memory Optimization](09_numpy_memory_optimization.md) | Efficient memory usage |
+| [Performance Tips](10_numpy_performance_tips.md) | Improving NumPy performance |
+| [Interview Cheatsheet](11-numpy_interview_cheatsheet.md) | Quick reference for interviews |
 
 ---
 
