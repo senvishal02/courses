@@ -11,7 +11,7 @@ Build your own **personal cloud storage** using **Nextcloud + Docker + Cloudflar
 
 ---
 
-# 🎯 Purpose
+## 🎯 Purpose
 
 This project enables you to build a powerful self-hosted cloud solution with the following capabilities:
 
@@ -41,7 +41,7 @@ This project enables you to build a powerful self-hosted cloud solution with the
 
 ---
 
-# 📦 Prerequisites
+## 📦 Prerequisites
 
 - Docker & Docker Compose
 - Cloudflare account + domain added
@@ -49,7 +49,7 @@ This project enables you to build a powerful self-hosted cloud solution with the
 
 ---
 
-# 🧰 Tech Stack
+## 🧰 Tech Stack
 
 | Component        | Purpose |
 |----------------|--------|
@@ -61,7 +61,7 @@ This project enables you to build a powerful self-hosted cloud solution with the
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
 ```text
 nextcloud/
@@ -75,13 +75,13 @@ nextcloud/
 
 ---
 
-# 💾 External Storage Setup (Important)
+## 💾 External Storage Setup (Important)
 
 Before starting containers:
 
 👉 If using **External HDD/SSD**, you MUST mount it first.
 
-### Example (Linux/macOS):
+*Example (Linux/macOS)*:
 
 ```bash
 mount /dev/sdX $PWD/nextcloud/Volumes/
@@ -92,9 +92,9 @@ Then update paths in docker-compose.yml:
 /Volumes/ExternalHDD/nextcloud/
 ```
 
-# 🧱 1. Docker Setup
+## 🧱 1. Docker Setup
 
-## 📄 Docker Compose File
+### 📄 Create Compose File
 
 ```yaml title="docker-compose.yml"
 services:
@@ -131,7 +131,7 @@ services:
       - ./volumes/redis:/data
 ```
 
-## ▶️ Start Containers
+### ▶️ Start Containers
 
 ```bash
 docker-compose up -d
@@ -152,32 +152,13 @@ http://localhost:8080
 
 --- 
 
-# 🌍 3. Cloudflare Tunnel Setup
+## 🌍 3. Cloudflare Tunnel Setup
 
 > ⚠️ **Important:**  
 > Before continuing, make sure your domain is configured in Cloudflare.  
 > 👉 [Click here to complete Cloudflare Setup](cloudflare-setup.md)
 
-## ➕ Add Cloudflare Service to Docker Compose
-
-Append this to your docker-compose.yml:
-
-```yaml title="docker-compose.yml"
-  cloudflared:
-    image: cloudflare/cloudflared:latest
-    container_name: cloudflared
-    command: tunnel run
-    depends_on:
-      - nextcloud
-```
-
-## ▶️ Start Cloudflare Containers
-
-```bash
-docker compose up -d
-```
-
-## 🔐 Login
+### 🔐 Login
 
 ```bash
 docker run -it cloudflare/cloudflared:latest tunnel login
@@ -189,7 +170,7 @@ If you wish to copy your credentials to a server, they have been saved to:
 /home/nonroot/.cloudflared/cert.pem
 ```
 
-## 📥 Save Credentials
+### 📥 Save Credentials
 
 ```bash
 docker run -it \
@@ -197,7 +178,7 @@ docker run -it \
 cloudflare/cloudflared:latest tunnel login
 ```
 
-## 🧩 Create Tunnel
+### 🧩 Create Tunnel
 
 ```bash
 docker run -it \
@@ -218,7 +199,7 @@ This will create:
 ./volumes/cloudflared/<TUNNEL_ID>.json
 ```
 
-## ⚙️ Create Config File
+### ⚙️ Create Config File
 
 ```yaml title='./volumes/cloudflared/config.yml'
 tunnel: <TUNNEL_ID>
@@ -230,9 +211,9 @@ ingress:
   - service: http_status:404
 ```
 
-## 🛠️ Fix Docker Compose File
+### ➕ Add Cloudflare Service to Docker Compose
 
-Update cloudflared config.yml file confguration:
+Append this to your docker-compose.yml:
 
 ```yaml title='docker-compose.yml'
   cloudflared:
@@ -245,46 +226,52 @@ Update cloudflared config.yml file confguration:
       - nextcloud
 ```
 
-## 🔄 Apply changes (recommended)
+### ▶️ Start Cloudflare Containers
 
 ```bash
 docker compose up -d
 ```
+
 ---
 
-# 🌐 4. Add Domain in Cloudflare
+## 🌐 4. Create DNS Record
 
-Auto Method
+### 🚀 Option 1: Automatic Method
+
+Run the following command to automatically create the DNS record:
 
 ```bash
 docker run -it \
--v $(pwd)/volumes/cloudflared:/home/nonroot/.cloudflared \
-cloudflare/cloudflared:latest \
-tunnel route dns nextcloud cloud.yourdomain.com
+  -v $(pwd)/volumes/cloudflared:/home/nonroot/.cloudflared \
+  cloudflare/cloudflared:latest \
+  tunnel route dns nextcloud cloud.yourdomain.com
 ```
+### ⚙️ Option 2: Manual Method (or Verification)
 
-But if you want to create manually (or verify)
+If you prefer to create the DNS record manually—or want to verify it—follow these steps:
 
-Go to:
-
-👉 Cloudflare Dashboard → DNS → Records
-
-Create this:
+1. Go to your **Cloudflare Dashboard**
+2. Navigate to:  
+   **DNS → Records**
+3. Create a new record with the following details:
 
 | Field  | Value                         |
 |--------|------------------------------|
 | Type   | CNAME                         |
-| Name   | cloud (or anything you want)  |
-| Target | TUNNEL_ID.cfargotunnel.com |
-| Proxy  | ✅ Proxied (Orange cloud ON) |
+| Name   | cloud (or any subdomain)      |
+| Target | `TUNNEL_ID.cfargotunnel.com` |
+| Proxy  | ✅ Proxied (Orange Cloud ON)  |
 
-If you open it now may face Domain Trust Issue, keep on continue to fix.
-```bash
-https://cloud.yourdomain.com
-```
 ---
 
-# 🔐 5. Nextcloud Trusted Config
+### ⚠️ Note
+
+If you try to access the URL now, you may encounter a **Domain Trust Issue**.  
+This is expected at this stage—continue with the next steps to resolve it.
+
+---
+
+## 🔐 5. Nextcloud Trusted Config
 
 ```bash
 docker exec -it nextcloud php occ config:system:set overwritehost --value=nextcloud.yourdomain.com &&
@@ -303,7 +290,7 @@ docker exec -it nextcloud php occ config:system:set forwarded_for_headers 1 --va
 
 ---
 
-# ⚡ 6. Redis Performance Optimization
+## ⚡ 6. Redis Performance Optimization
 
 ```bash
 docker exec -it nextcloud php occ config:system:set memcache.local --value='\OC\Memcache\Redis' &&
@@ -315,7 +302,7 @@ docker exec -it nextcloud php occ config:system:set redis port --value='6379'
 
 ---
 
-# ⚠️ Important Notes
+## ⚠️ Important Notes
 
 - Always mount external disk before starting containers
 - Keep tunnel credentials safe
@@ -324,7 +311,7 @@ docker exec -it nextcloud php occ config:system:set redis port --value='6379'
 
 ---
 
-# ✅ Final Access
+## ✅ Final Access
 ```bash
 https://cloud.yourdomain.com
 ```
