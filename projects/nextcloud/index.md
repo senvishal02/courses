@@ -68,6 +68,7 @@ nextcloud/
 ├── docker-compose.yml 
 └── volumes/            # (auto created)
     ├── db/             # Database storage (auto created)
+    ├── cloudflared/    # Cloudflare data (auto created)    
     ├── nextcloud/      # Nextcloud data (auto created)
     └── redis/          # Redis persistence (auto created)
 ```
@@ -298,6 +299,16 @@ docker exec -it nextcloud php occ config:system:set memcache.distributed --value
 docker exec -it nextcloud php occ config:system:set memcache.locking --value='\OC\Memcache\Redis' &&
 docker exec -it nextcloud php occ config:system:set redis host --value='redis' &&
 docker exec -it nextcloud php occ config:system:set redis port --value='6379'
+```
+
+---
+
+## ✅ 7. Fix Security & setup warnings
+
+```bash
+docker exec -u www-data nextcloud php occ config:system:set maintenance_window_start --type=integer --value=2 &&
+docker exec -u www-data nextcloud php occ maintenance:repair --include-expensive &&
+docker exec -u www-data nextcloud php occ config:system:set default_phone_region --value=IN
 ```
 
 ---
