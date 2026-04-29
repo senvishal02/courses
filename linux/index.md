@@ -1,73 +1,141 @@
-# Linux Course Repository – Complete Learning Guide
+---
+title: Linux & Shell Scripting
+description: Complete Linux course for DevOps engineers — from basics to advanced shell scripting
+tags: [linux, shell, bash, devops, beginner]
+---
 
-Welcome to the **Linux Administration Course**, a structured hands-on learning repository designed to teach **Linux from fundamentals to advanced system administration**.
+# :material-console-line: Linux & Shell Scripting
 
-This course focuses on **real-world Linux usage in DevOps, Cloud, and Production environments**.
+> **The foundation of every DevOps engineer.** If you can't navigate and control Linux, nothing else in this stack will make sense.
+
+<div class="grid cards" markdown>
+-   :material-clock-outline: **~20 hours**
+-   :material-signal: **Beginner → Intermediate**
+-   :material-video: **YouTube Series Available**
+-   :material-update: **Updated: 2026**
+</div>
 
 ---
 
-## 🚀 Course Roadmap
+## :material-information: Course Overview
 
-This course guides you from **Linux basics to advanced administration**:
+Linux powers over 96% of the world's servers, cloud infrastructure, and container runtimes. This course covers everything from basic command-line navigation to advanced scripting, process management, and system hardening — all from a DevOps engineer's perspective.
 
-1. Linux Fundamentals – Architecture, distributions, installation  
-2. Filesystem & Command Line – Working with files and directories  
-3. User & Group Management – Managing accounts and permissions  
-4. Process & Service Management – System processes and systemd  
-5. Package Management – Installing and managing software  
-6. Storage Management – Disk partitioning, filesystems, LVM, RAID  
-7. Networking – Network configuration and troubleshooting  
-8. Remote Access – Secure SSH configuration and file transfers  
-9. Web Servers – Apache, Nginx, SSL configuration  
-10. Security – Firewall, SELinux, system hardening  
-11. Shell Scripting – Automation with Bash  
-12. Logs & Monitoring – System logs and monitoring tools  
-13. Backup & Disaster Recovery  
-14. Advanced Administration – Docker, Ansible, virtualization  
-15. Production Projects
+**What you'll be able to do after this course:**
+
+- Navigate and manage Linux systems confidently
+- Write production-grade bash scripts for automation
+- Manage users, permissions, and system services
+- Troubleshoot system performance issues
+- Understand networking from a Linux perspective
 
 ---
 
-## 📂 Folder Structure & Learning Index
+## :material-list-box: Topics Covered
 
-| Folder | Description | Learning Outcomes |
-|------|-------------|----------------|
-| `00-Introduction` | Linux basics | Linux architecture and installation |
-| `01-File-System` | File management | Work with files and directories |
-| `02-User-Group-Management` | Users and groups | Manage accounts and access |
-| `03-Permissions` | Access control | File permissions, ACLs |
-| `04-Process-Service-Management` | Process management | Manage services with systemd |
-| `05-Package-Management` | Package tools | Install software via repositories |
-| `06-Storage-Management` | Disk management | Filesystems, LVM, RAID |
-| `07-Networking` | Networking | Configure and troubleshoot network |
-| `08-SSH-Remote-Access` | Remote management | Secure SSH and file transfers |
-| `09-Web-Server` | Web hosting | Deploy Apache & Nginx |
-| `10-Security` | Security tools | Firewall, SELinux, hardening |
-| `11-Shell-Scripting` | Automation | Write bash scripts |
-| `12-Logs-Monitoring` | Observability | Logs and monitoring |
-| `13-Backup-Recovery` | Data protection | Backup strategies |
-| `14-Advanced-Administration` | Advanced topics | Docker, Ansible |
-| `15-Projects` | Real-world projects | Production server setups |
+=== "Foundations"
+    - Linux distributions and architecture
+    - Filesystem hierarchy standard (FHS)
+    - Essential commands: `ls`, `cd`, `cp`, `mv`, `rm`, `find`, `grep`
+    - File permissions and ownership (`chmod`, `chown`)
+    - Text processing: `awk`, `sed`, `cut`, `sort`, `uniq`
+    - Redirections, pipes, and I/O streams
+
+=== "Scripting"
+    - Bash scripting fundamentals
+    - Variables, arrays, and functions
+    - Control flow: `if`, `for`, `while`, `case`
+    - Error handling and exit codes
+    - Script debugging with `set -x`
+    - Cron jobs and task scheduling
+    - Environment variables and `.bashrc`/`.bash_profile`
+
+=== "System Admin"
+    - Process management: `ps`, `top`, `htop`, `kill`
+    - Service management with `systemd`
+    - Package management: `apt`, `yum`, `dnf`
+    - Disk management: `df`, `du`, `fdisk`, `lsblk`
+    - User and group management
+    - SSH configuration and key-based auth
+    - Log management: `journalctl`, `/var/log/`
+
+=== "Networking"
+    - Network interfaces and IP configuration
+    - DNS resolution and `/etc/hosts`
+    - Firewall with `ufw` / `firewalld`
+    - Port scanning with `netstat`, `ss`, `nmap`
+    - `curl`, `wget`, and HTTP from the CLI
+    - File transfer: `scp`, `rsync`
+
+=== "Security"
+    - sudo and privilege escalation
+    - SSH hardening
+    - File system encryption
+    - SELinux and AppArmor basics
+    - Audit logging
 
 ---
 
-## ⚡ Quick Start
+## :material-map-marker-path: Learning Path
 
-```bash
-git clone https://github.com/username/linux-course.git
-cd linux
+```mermaid
+graph TD
+    A[Week 1: CLI Basics] --> B[Week 2: File System & Permissions]
+    B --> C[Week 3: Shell Scripting]
+    C --> D[Week 4: System Administration]
+    D --> E[Week 5: Networking]
+    E --> F[Week 6: Scripting Projects]
 ```
 
-Follow folders **in numerical order**.
+---
+
+## :material-youtube: YouTube Playlist
+
+| # | Video | Duration |
+|---|---|---|
+| 01 | Introduction to Linux for DevOps | 45 min |
+| 02 | Linux Filesystem & Essential Commands | 60 min |
+| 03 | File Permissions Deep Dive | 45 min |
+| 04 | Text Processing with AWK & SED | 90 min |
+| 05 | Bash Scripting from Zero | 120 min |
+| 06 | Advanced Bash: Functions & Error Handling | 90 min |
+| 07 | Systemd & Service Management | 60 min |
+| 08 | SSH & Secure Remote Access | 60 min |
+| 09 | Networking Fundamentals for DevOps | 75 min |
+| 10 | Real-World Automation Scripts | 90 min |
+
+[:fontawesome-brands-youtube: Watch Full Playlist](https://youtube.com/@senvishal02){ .md-button .md-button--primary }
 
 ---
 
-## 💡 Learning Tips
+## :material-test-tube: Hands-On Labs
 
-1. Practice commands daily.
+- [Lab 1: Setting Up a Linux Dev Environment](../../labs/docker-labs/index.md)
+- [Lab 2: Automate Backup with Bash Scripts](../../labs/docker-labs/index.md)
+- [Lab 3: User Management Automation](../../labs/docker-labs/index.md)
+- [Lab 4: System Monitoring Script](../../labs/docker-labs/index.md)
 
-2. Use a Linux VM or WSL.
+---
 
-3. Break systems intentionally and fix them.
+## :material-lightning-bolt: Quick Reference
 
-4. Complete projects to gain production skills.
+[:material-lightning-bolt: Linux Cheatsheet](../../cheatsheets/linux.md){ .md-button }
+[:material-help-circle: Linux Interview Q&A](../../interview-prep/devops/index.md){ .md-button }
+
+---
+
+## :fontawesome-brands-github: GitHub Resources
+
+- Source code and scripts for all exercises
+- Solution files for every lab
+- Project templates
+
+[:fontawesome-brands-github: View on GitHub](https://github.com/senvishal02/courses){ .md-button }
+
+---
+
+!!! note "Prerequisites"
+    No prior Linux experience required. Basic computer usage is sufficient.
+
+!!! tip "Pro Tip"
+    Set up a Linux VM (using VirtualBox or Multipass) and practice every command as you learn it. Don't just read — type it.
