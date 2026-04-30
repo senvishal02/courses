@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "Kubeflow"
+tags: [mlops, kubeflow]
 ---
 
-# Kubernetes — Zero to CKA
+# Kubeflow
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

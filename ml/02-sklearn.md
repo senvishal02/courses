@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "Scikit-learn"
+tags: [ml, sklearn, scikit-learn]
 ---
 
-# Kubernetes — Zero to CKA
+# Scikit-learn
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "AIOps Overview"
+tags: [aiops, overview]
 ---
 
-# Kubernetes — Zero to CKA
+# AIOps Overview
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

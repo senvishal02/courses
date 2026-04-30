@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "Model Serving & APIs"
+tags: [mlops, serving]
 ---
 
-# Kubernetes — Zero to CKA
+# Model Serving & APIs
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

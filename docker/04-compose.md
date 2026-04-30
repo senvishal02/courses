@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "Docker Compose"
+tags: [docker, compose]
 ---
 
-# Kubernetes — Zero to CKA
+# Docker Compose
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

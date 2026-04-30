@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "Feature Engineering"
+tags: [data-science, feature-engineering]
 ---
 
-# Kubernetes — Zero to CKA
+# Feature Engineering
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

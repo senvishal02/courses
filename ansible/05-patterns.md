@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "Real-world Patterns"
+tags: [ansible, patterns]
 ---
 
-# Kubernetes — Zero to CKA
+# Real-world Patterns
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

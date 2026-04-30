@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "Inventory & Ad-hoc Commands"
+tags: [ansible, inventory]
 ---
 
-# Kubernetes — Zero to CKA
+# Inventory & Ad-hoc Commands
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

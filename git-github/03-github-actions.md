@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "GitHub Actions"
+tags: [github-actions, cicd]
 ---
 
-# Kubernetes — Zero to CKA
+# GitHub Actions
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

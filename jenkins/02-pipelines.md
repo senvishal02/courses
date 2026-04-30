@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "Pipelines as Code"
+tags: [jenkins, pipelines]
 ---
 
-# Kubernetes — Zero to CKA
+# Pipelines as Code
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

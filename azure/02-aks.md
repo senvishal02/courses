@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "AKS (Azure Kubernetes)"
+tags: [azure, aks, kubernetes]
 ---
 
-# Kubernetes — Zero to CKA
+# AKS (Azure Kubernetes)
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "ML Fundamentals"
+tags: [ml, fundamentals]
 ---
 
-# Kubernetes — Zero to CKA
+# ML Fundamentals
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

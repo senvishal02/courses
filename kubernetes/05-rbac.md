@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "RBAC & Security"
+tags: [kubernetes, rbac, security]
 ---
 
-# Kubernetes — Zero to CKA
+# RBAC & Security
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

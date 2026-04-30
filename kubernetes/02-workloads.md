@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "Pods & Workloads"
+tags: [kubernetes, pods, deployments]
 ---
 
-# Kubernetes — Zero to CKA
+# Pods & Workloads
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

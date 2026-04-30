@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "IAM & Security"
+tags: [aws, iam, security]
 ---
 
-# Kubernetes — Zero to CKA
+# IAM & Security
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "Well-Architected Framework"
+tags: [aws, well-architected]
 ---
 
-# Kubernetes — Zero to CKA
+# Well-Architected Framework
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

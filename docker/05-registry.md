@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "Registry & Security"
+tags: [docker, registry, security]
 ---
 
-# Kubernetes — Zero to CKA
+# Registry & Security
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

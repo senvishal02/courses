@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "Compute (EC2, ECS, Lambda)"
+tags: [aws, ec2, ecs, lambda]
 ---
 
-# Kubernetes — Zero to CKA
+# Compute (EC2, ECS, Lambda)
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

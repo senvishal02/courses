@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "EDA & Visualization"
+tags: [data-science, eda, visualization]
 ---
 
-# Kubernetes — Zero to CKA
+# EDA & Visualization
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

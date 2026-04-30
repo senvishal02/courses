@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "SAA-C03 Exam Prep"
+tags: [aws, saa, certification]
 ---
 
-# Kubernetes — Zero to CKA
+# SAA-C03 Exam Prep
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "Vault & Secrets"
+tags: [ansible, vault, secrets]
 ---
 
-# Kubernetes — Zero to CKA
+# Vault & Secrets
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

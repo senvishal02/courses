@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "Roles & Galaxy"
+tags: [ansible, roles, galaxy]
 ---
 
-# Kubernetes — Zero to CKA
+# Roles & Galaxy
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

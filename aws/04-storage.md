@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "Storage & Databases"
+tags: [aws, s3, rds]
 ---
 
-# Kubernetes — Zero to CKA
+# Storage & Databases
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

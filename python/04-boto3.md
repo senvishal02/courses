@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "Boto3 & AWS SDK"
+tags: [python, boto3, aws]
 ---
 
-# Kubernetes — Zero to CKA
+# Boto3 & AWS SDK
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

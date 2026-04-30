@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "AI-Assisted Incident Response"
+tags: [aiops, incident]
 ---
 
-# Kubernetes — Zero to CKA
+# AI-Assisted Incident Response
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

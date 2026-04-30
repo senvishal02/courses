@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "AWS Core Services"
+tags: [aws, core]
 ---
 
-# Kubernetes — Zero to CKA
+# AWS Core Services
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

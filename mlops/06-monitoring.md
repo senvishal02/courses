@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "ML Monitoring & Drift"
+tags: [mlops, monitoring, drift]
 ---
 
-# Kubernetes — Zero to CKA
+# ML Monitoring & Drift
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

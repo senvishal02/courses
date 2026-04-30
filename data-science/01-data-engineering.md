@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "Data Engineering Basics"
+tags: [data-science, data-engineering]
 ---
 
-# Kubernetes — Zero to CKA
+# Data Engineering Basics
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

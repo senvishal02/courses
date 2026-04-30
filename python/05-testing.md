@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "Testing & CI"
+tags: [python, testing, pytest]
 ---
 
-# Kubernetes — Zero to CKA
+# Testing & CI
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

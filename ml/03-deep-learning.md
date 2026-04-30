@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "Deep Learning Basics"
+tags: [ml, deep-learning]
 ---
 
-# Kubernetes — Zero to CKA
+# Deep Learning Basics
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

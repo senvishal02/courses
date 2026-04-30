@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "Security & Best Practices"
+tags: [jenkins, security]
 ---
 
-# Kubernetes — Zero to CKA
+# Security & Best Practices
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

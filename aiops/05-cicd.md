@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "AI in CI/CD"
+tags: [aiops, cicd]
 ---
 
-# Kubernetes — Zero to CKA
+# AI in CI/CD
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

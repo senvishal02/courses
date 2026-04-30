@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "Networking & Volumes"
+tags: [docker, networking, volumes]
 ---
 
-# Kubernetes — Zero to CKA
+# Networking & Volumes
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

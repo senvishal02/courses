@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "Setup & Architecture"
+tags: [jenkins, setup]
 ---
 
-# Kubernetes — Zero to CKA
+# Setup & Architecture
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

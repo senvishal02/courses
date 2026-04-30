@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "Cost Optimization"
+tags: [aws, cost, finops]
 ---
 
-# Kubernetes — Zero to CKA
+# Cost Optimization
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

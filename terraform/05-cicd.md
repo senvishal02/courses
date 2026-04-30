@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "CI/CD with Terraform"
+tags: [terraform, cicd]
 ---
 
-# Kubernetes — Zero to CKA
+# CI/CD with Terraform
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

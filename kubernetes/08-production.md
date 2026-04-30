@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "Production Patterns"
+tags: [kubernetes, production]
 ---
 
-# Kubernetes — Zero to CKA
+# Production Patterns
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

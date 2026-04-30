@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "Users & Permissions"
+tags: [linux, permissions]
 ---
 
-# Kubernetes — Zero to CKA
+# Users & Permissions
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

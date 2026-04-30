@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "Working with APIs"
+tags: [python, api, requests]
 ---
 
-# Kubernetes — Zero to CKA
+# Working with APIs
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

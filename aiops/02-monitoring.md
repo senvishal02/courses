@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "AI-Driven Monitoring"
+tags: [aiops, monitoring]
 ---
 
-# Kubernetes — Zero to CKA
+# AI-Driven Monitoring
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

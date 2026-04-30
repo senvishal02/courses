@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "MLOps Principles"
+tags: [mlops, principles]
 ---
 
-# Kubernetes — Zero to CKA
+# MLOps Principles
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

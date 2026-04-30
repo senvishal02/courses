@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "Feature Stores"
+tags: [mlops, feature-stores]
 ---
 
-# Kubernetes — Zero to CKA
+# Feature Stores
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "Introduction to Linux"
+tags: [linux, introduction]
 ---
 
-# Kubernetes — Zero to CKA
+# Introduction to Linux
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 

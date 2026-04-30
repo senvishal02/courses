@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes — Zero to CKA"
-tags: [kubernetes, course, cka]
+title: "File System & Navigation"
+tags: [linux, filesystem]
 ---
 
-# Kubernetes — Zero to CKA
+# File System & Navigation
 
 > Content is being developed. Check back soon or subscribe to [YouTube](https://youtube.com/@senvishal02) for video walkthroughs.
 
