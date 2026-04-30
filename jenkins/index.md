@@ -9,7 +9,7 @@ tags: [course, jenkins, cicd, pipelines]
 
 > **Build enterprise-grade CI/CD systems and deployment pipelines.**
 
-<div class="grid cards" markdown>
+<div class="grid cards" markdown markdown="1">
 -   :material-clock-outline: **~15 Hours**
 -   :material-signal: **Intermediate**
 -   :material-video: **YouTube Series Available**

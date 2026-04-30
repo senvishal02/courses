@@ -9,7 +9,7 @@ tags: [course, git, github, github-actions, gitops]
 
 > **Version control everything properly using professional Git workflows.**
 
-<div class="grid cards" markdown>
+<div class="grid cards" markdown markdown="1">
 -   :material-clock-outline: **~10 Hours**
 -   :material-signal: **Beginner**
 -   :material-video: **YouTube Series Available**

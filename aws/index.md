@@ -9,7 +9,7 @@ tags: [course, aws, cloud, ec2, eks, vpc]
 
 > **Complete production-focused AWS learning path for DevOps engineers.**
 
-<div class="grid cards" markdown>
+<div class="grid cards" markdown markdown="1">
 -   :material-clock-outline: **~50 Hours**
 -   :material-signal: **Intermediate → Advanced**
 -   :material-certificate: **SAA-C03 Aligned**

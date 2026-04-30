@@ -9,7 +9,7 @@ tags: [course, azure, cloud, aks]
 
 > **Enterprise Azure learning path focused on platform engineering and MLOps.**
 
-<div class="grid cards" markdown>
+<div class="grid cards" markdown markdown="1">
 -   :material-clock-outline: **~40 Hours**
 -   :material-signal: **Intermediate → Advanced**
 -   :material-update: **Updated: 2026**

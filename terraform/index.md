@@ -9,7 +9,7 @@ tags: [course, terraform, iac, terragrunt]
 
 > **Master Infrastructure as Code with Terraform and Terragrunt for production environments.**
 
-<div class="grid cards" markdown>
+<div class="grid cards" markdown markdown="1">
 -   :material-clock-outline: **~20 Hours**
 -   :material-signal: **Intermediate → Advanced**
 -   :material-video: **YouTube Series Available**

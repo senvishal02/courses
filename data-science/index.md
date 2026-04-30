@@ -9,7 +9,7 @@ tags: [course, data-science, pandas, numpy]
 
 > **Learn how data behaves before productionising machine learning systems.**
 
-<div class="grid cards" markdown>
+<div class="grid cards" markdown markdown="1">
 -   :material-clock-outline: **~25 Hours**
 -   :material-signal: **Beginner → Intermediate**
 -   :material-update: **Updated: 2026**

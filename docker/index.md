@@ -9,7 +9,7 @@ tags: [course, docker, containers, devops]
 
 > **Master containerisation from fundamentals to production-grade deployments.**
 
-<div class="grid cards" markdown>
+<div class="grid cards" markdown markdown="1">
 -   :material-clock-outline: **~20 Hours**
 -   :material-signal: **Beginner → Advanced**
 -   :material-video: **YouTube Series Available**

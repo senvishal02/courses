@@ -9,7 +9,7 @@ tags: [course, machine-learning, ml, sklearn]
 
 > **Understand how models are trained before learning how to deploy them.**
 
-<div class="grid cards" markdown>
+<div class="grid cards" markdown markdown="1">
 -   :material-clock-outline: **~30 Hours**
 -   :material-signal: **Beginner → Intermediate**
 -   :material-update: **Updated: 2026**

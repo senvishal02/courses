@@ -9,7 +9,7 @@ tags: [course, ansible, automation, configuration-management]
 
 > **Configuration management and infrastructure automation for production systems.**
 
-<div class="grid cards" markdown>
+<div class="grid cards" markdown markdown="1">
 -   :material-clock-outline: **~15 Hours**
 -   :material-signal: **Intermediate**
 -   :material-video: **YouTube Series Available**

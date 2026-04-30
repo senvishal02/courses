@@ -9,7 +9,7 @@ tags: [course, aiops, ai, monitoring, anomaly-detection]
 
 > **AI-driven operations and intelligent infrastructure management.**
 
-<div class="grid cards" markdown>
+<div class="grid cards" markdown markdown="1">
 -   :material-clock-outline: **~20 Hours**
 -   :material-signal: **Advanced**
 -   :material-video: **YouTube Series Available**
