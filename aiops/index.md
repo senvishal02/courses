@@ -1,30 +1,65 @@
 ---
 title: "AIOps — AI-Driven Operations"
-description: "AI-powered operations, monitoring, and incident automation"
-tags: [course, aiops, ai, monitoring, anomaly-detection]
+description: "AI-driven monitoring, anomaly detection, automated incident response, and LLMs for DevOps operations."
+icon: material/robot
+tags: [aiops, monitoring, anomaly-detection, llm, incident-response, devops]
 ---
 
-# AIOps — AI-Driven Operations
+# :material-robot: AIOps — AI-Driven Operations
 
+<div class="course-stats" markdown>
+⏱️ **~14 hours** &nbsp;·&nbsp; 📚 **6 modules** &nbsp;·&nbsp; 🎓 **Advanced**
+</div>
 
-> **AI-driven operations and intelligent infrastructure management.**
+!!! abstract "Course Overview"
+    AIOps applies AI and ML to automate and enhance IT operations — from intelligent monitoring
+    and anomaly detection to AI-assisted incident response and LLM-powered DevOps tooling.
+    This course is for engineers who want to bring AI into their operational workflows.
 
-<div class="grid cards" markdown markdown="1">
--   :material-clock-outline: **~20 Hours**
--   :material-signal: **Advanced**
--   :material-video: **YouTube Series Available**
--   :material-update: **Updated: 2026**
+---
+
+## Learning Path
+
+<div class="course-path-row" markdown>
+🔴 Advanced → 🤖 AI-Ops Ready
 </div>
 
 ---
 
-## :material-list-box: Modules
+## Prerequisites
 
-| # | Module | Topics |
-|---|---|---|
-| 01 | [AIOps Overview](01-overview.md) | AIOps concepts, maturity model, use cases |
-| 02 | [AI-Driven Monitoring](02-monitoring.md) | Anomaly detection in metrics, log pattern analysis |
-| 03 | [Anomaly Detection](03-anomaly.md) | Statistical methods, ML-based detection, time series |
-| 04 | [AI-Assisted Incident Response](04-incident.md) | Root cause analysis, auto-remediation, runbooks |
-| 05 | [AI in CI/CD](05-cicd.md) | Test optimisation, deployment risk scoring |
-| 06 | [LLMs for DevOps](06-llms.md) | ChatOps, code generation, documentation |
+- [ ] Kubernetes and observability fundamentals
+- [ ] Python scripting
+- [ ] Basic ML concepts
+
+---
+
+## Complete Syllabus
+
+| Module | Topic | Level |
+|--------|-------|-------|
+| [01 — AIOps Overview](01-overview.md) | What is AIOps, maturity model, tooling landscape | 🔴 Advanced |
+| [02 — AI-Driven Monitoring](02-monitoring.md) | Intelligent alerting, correlation, Prometheus + ML | 🔴 Advanced |
+| [03 — Anomaly Detection](03-anomaly.md) | Statistical methods, time-series models, thresholds | 🔴 Advanced |
+| [04 — AI-Assisted Incident Response](04-incident.md) | Auto-triage, runbook automation, RCA with AI | 🔴 Advanced |
+| [05 — AI in CI/CD](05-cicd.md) | Intelligent test selection, build failure prediction | 🔴 Advanced |
+| [06 — LLMs for DevOps](06-llms.md) | ChatOps, AI assistants, RAG for runbooks, prompt engineering | 🔴 Advanced |
+
+---
+
+## Real-World Projects
+
+- [:material-rocket-launch: AI-Powered Log Analysis](../../projects/mlops-projects/ai-log-analysis.md)
+- [:material-robot: LLMOps Platform (RAG + Monitoring)](../../projects/mlops-projects/llmops-platform.md)
+
+---
+
+## Quick References
+
+[:material-help-circle: MLOps Interview Q&A](../../interview-prep/mlops/index.md){ .md-button }
+[:material-map: MLOps Engineer Roadmap](../../roadmap/mlops-roadmap.md){ .md-button }
+
+---
+
+!!! success "Start Here"
+    Begin with the overview → [01 — AIOps Overview](01-overview.md)

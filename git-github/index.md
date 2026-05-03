@@ -1,32 +1,49 @@
 ---
-title: "Git & GitHub"
-description: "Git fundamentals, branching strategies, and GitHub Actions"
-tags: [course, git, github, github-actions, gitops]
+title: "Git & GitHub for DevOps"
+description: "Master Git fundamentals, branching strategies, GitHub Actions CI/CD, and GitOps patterns."
+icon: material/git
+tags: [git, github, github-actions, gitops, ci-cd]
 ---
 
-# Git & GitHub
+# :material-git: Git & GitHub for DevOps
 
+<div class="course-stats" markdown>
+⏱️ **~10 hours** &nbsp;·&nbsp; 📚 **4 modules** &nbsp;·&nbsp; 🎓 **Beginner → Advanced**
+</div>
 
-> **Version control everything properly using professional Git workflows.**
+!!! abstract "Course Overview"
+    Git is the foundation of every modern software and infrastructure workflow. This course
+    covers practical Git mastery, team branching strategies, GitHub Actions CI/CD pipelines,
+    and GitOps patterns used in production Kubernetes environments.
 
-<div class="grid cards" markdown markdown="1">
--   :material-clock-outline: **~10 Hours**
--   :material-signal: **Beginner**
--   :material-video: **YouTube Series Available**
--   :material-update: **Updated: 2026**
+---
+
+## Learning Path
+
+<div class="course-path-row" markdown>
+🟢 Beginner → 🟡 Intermediate → 🔴 Advanced
 </div>
 
 ---
 
-## :material-list-box: Modules
+## Complete Syllabus
 
-| # | Module | Topics |
-|---|---|---|
-| 01 | [Git Fundamentals](01-fundamentals.md) | Init, commit, log, diff, reset, stash |
-| 02 | [Branching Strategies](02-branching.md) | GitFlow, trunk-based, feature branches |
-| 03 | [GitHub Actions](03-github-actions.md) | Workflows, jobs, runners, secrets, reusable actions |
-| 04 | [GitOps Patterns](04-gitops.md) | ArgoCD, Flux, declarative infrastructure |
+| Module | Topic | Level |
+|--------|-------|-------|
+| [01 — Git Fundamentals](01-fundamentals.md) | init, clone, commit, push, rebase, stash | 🟢 Beginner |
+| [02 — Branching Strategies](02-branching.md) | Gitflow, trunk-based, GitHub flow, merge vs rebase | 🟡 Intermediate |
+| [03 — GitHub Actions](03-github-actions.md) | Workflows, triggers, runners, secrets, matrix builds | 🟡 Intermediate |
+| [04 — GitOps Patterns](04-gitops.md) | ArgoCD, Flux, pull-based deployments, drift detection | 🔴 Advanced |
 
 ---
 
+## Quick References
+
 [:material-lightning-bolt: Git Cheatsheet](../../cheatsheets/git.md){ .md-button }
+[:material-help-circle: DevOps Interview Q&A](../../interview-prep/devops/core-concepts.md){ .md-button }
+[:material-map: DevOps Engineer Roadmap](../../roadmap/devops-roadmap.md){ .md-button }
+
+---
+
+!!! success "Start Here"
+    Begin with the basics → [01 — Git Fundamentals](01-fundamentals.md)

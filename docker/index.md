@@ -1,48 +1,90 @@
 ---
 title: "Docker — Zero to Production"
-description: "Complete Docker course from containers to production deployment"
-tags: [course, docker, containers, devops]
+icon: material/docker
+tags: [docker, containers, fundamentals]
 ---
 
 # Docker — Zero to Production
 
+Welcome to the **Docker — Zero to Production** course. This comprehensive guide is designed to take you from container basics to production-grade orchestration and security.
 
-> **Master containerisation from fundamentals to production-grade deployments.**
+---
 
-<div class="grid cards" markdown markdown="1">
--   :material-clock-outline: **~20 Hours**
--   :material-signal: **Beginner → Advanced**
--   :material-video: **YouTube Series Available**
--   :material-update: **Updated: 2026**
+## 🚀 Course Overview
+
+Docker has revolutionized how we build, ship, and run applications. In this course, you will master:
+*   **Container Fundamentals**: Understanding the Docker engine and architecture.
+*   **Image Optimization**: Building tiny, secure, and fast-loading images.
+*   **Service Orchestration**: Managing complex stacks with Docker Compose.
+*   **Security & Hardening**: Protecting your containerized workloads.
+
+---
+
+## 🛤️ Learning Path
+
+```mermaid
+graph TD
+    A[Containers 101] --> B[Dockerfile Mastery]
+    B --> C[Networking & Volumes]
+    C --> D[Docker Compose]
+    D --> E[Security & Production]
+```
+
+---
+
+## 📚 Complete Syllabus
+
+<div class="syllabus-section" markdown="1">
+
+<a href="./01-containers" class="syllabus-item">
+    <div class="item-icon">:material-cube-outline:</div>
+    <div class="item-content">
+        <span class="item-title">01 — Containers 101</span>
+        <span class="item-desc">Container vs VM, Docker architecture, and basic CLI commands.</span>
+    </div>
+</a>
+
+<a href="02-dockerfile.md" class="syllabus-item">
+    <div class="item-icon">:material-file-code:</div>
+    <div class="item-content">
+        <span class="item-title">02 — Dockerfile Deep Dive</span>
+        <span class="item-desc">Multi-stage builds, layer optimization, and best practices.</span>
+    </div>
+</a>
+
+<a href="03-networking.md" class="syllabus-item">
+    <div class="item-icon">:material-lan:</div>
+    <div class="item-content">
+        <span class="item-title">03 — Networking & Volumes</span>
+        <span class="item-desc">Managing persistent data and service communication.</span>
+    </div>
+</a>
+
+<a href="04-compose.md" class="syllabus-item">
+    <div class="item-icon">:material-layers-outline:</div>
+    <div class="item-content">
+        <span class="item-title">04 — Docker Compose</span>
+        <span class="item-desc">Orchestrating multi-service applications seamlessly.</span>
+    </div>
+</a>
+
+<a href="05-registry.md" class="syllabus-item">
+    <div class="item-icon">:material-shield-lock-outline:</div>
+    <div class="item-content">
+        <span class="item-title">05 — Registry & Security</span>
+        <span class="item-desc">Private registries, image signing, and vulnerability scanning.</span>
+    </div>
+</a>
+
+<a href="06-production.md" class="syllabus-item">
+    <div class="item-icon">:material-server-network:</div>
+    <div class="item-content">
+        <span class="item-title">06 — Production Best Practices</span>
+        <span class="item-desc">Health checks, resource limits, and logging.</span>
+    </div>
+</a>
+
 </div>
-
----
-
-## :material-information: Course Overview
-
-Docker is the foundation of modern application packaging and deployment. This course covers everything from basic container operations to production security hardening and multi-stage build optimisation.
-
-**What you will learn:**
-
-- Container fundamentals and Docker architecture
-- Writing production-grade Dockerfiles
-- Docker networking and volume management
-- Docker Compose for multi-service applications
-- Container registry management and security
-- Production best practices and image optimisation
-
----
-
-## :material-list-box: Modules
-
-| # | Module | Topics |
-|---|---|---|
-| 01 | [Containers 101](01-containers.md) | Container vs VM, Docker architecture, basic commands |
-| 02 | [Dockerfile Deep Dive](02-dockerfile.md) | Multi-stage builds, layer optimisation, best practices |
-| 03 | [Networking & Volumes](03-networking.md) | Bridge, host, overlay networks, bind mounts, volumes |
-| 04 | [Docker Compose](04-compose.md) | Multi-service apps, environment management, profiles |
-| 05 | [Registry & Security](05-registry.md) | Private registries, image signing, vulnerability scanning |
-| 06 | [Production Best Practices](06-production.md) | Health checks, resource limits, logging, orchestration |
 
 ---
 
