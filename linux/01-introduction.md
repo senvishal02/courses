@@ -1,5 +1,7 @@
 ---
 title: "Introduction to Linux"
+hide:
+  - navigation
 tags: [linux, introduction]
 ---
 
